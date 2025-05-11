@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.Hero{
+ font-size: 48px;
+ color: #F9FAF8;
+ font-weight: 900;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    height: 400px;
+    align-items: center;
+}
+
+
+.text{
+    width: 500px;  /* Set a fixed width */
+    max-width: 100%;  /* Ensure it doesn't overflow on smaller screens */
+    padding: 20px;
+    border: 1px solid #ccc;
+    height: 300px;
+    
+}
+
+.link{
+    margin: top 10px;
+    padding:20px;
+    align-items: center;
+
+}
+
+.heading{
+    display:flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+.boxes{
+    display:flex;
+    justify-content: space-around;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 1em;
+    height: 100vh;
+  }
+
+  .sectext {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+    max-width: 700px;
+    width: 100%;
+    background-color: #E5E7EB;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  .Author{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+  }
+
