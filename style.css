@@ -24,6 +24,10 @@ button{
  font-weight: 900;
 }
 
+.introtext{
+    color: white;
+}
+
 .section1{
     display: flex;
     justify-content: center;
@@ -65,8 +69,8 @@ button{
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 1em;
-    height: 100vh;
+    padding: 0.5em;
+    height: 700px;
   }
 
   .sectext {
@@ -85,5 +89,25 @@ button{
     font-size: 20px;
     font-weight: bold;
     text-align: right;
+  }
+
+  .section4{
+    background-color: white;
+    max-height: 4em;
+    font-size: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding: 4em;
+    align-items: center;
+  }
+
+  .blue_bar{
+    background-color: #3882F6;
+    padding: 2em;
+    border-radius: 15px;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
   }
 
