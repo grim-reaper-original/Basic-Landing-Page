@@ -41,7 +41,6 @@ button{
     width: 500px;  /* Set a fixed width */
     max-width: 100%;  /* Ensure it doesn't overflow on smaller screens */
     padding: 20px;
-    border: 1px solid #ccc;
     height: 300px;
     
 }
@@ -50,6 +49,7 @@ button{
     margin: top 10px;
     padding:20px;
     align-items: center;
+    color: aquamarine;
 
 }
 
@@ -69,7 +69,7 @@ button{
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    padding: 0.5em;
+    padding: 1em;
     height: 700px;
   }
 
@@ -104,10 +104,18 @@ button{
 
   .blue_bar{
     background-color: #3882F6;
-    padding: 2em;
+    padding: 1em;
     border-radius: 15px;
     width: 800px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
   }
 
+.footer{
+    background-color: #1F2937;
+    height: 100px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
